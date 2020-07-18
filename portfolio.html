@@ -4,15 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
 
   <body>
@@ -59,55 +51,56 @@
       </div>
     </header>
 
-    <main class="portfolio">
-      <section class="container">
+    <main class="portfolio-section">
+      <section class="portfolio">
         <!-- Скрытый заголовок -->
-        <h1 class="visually-hidden">Примеры проектов</h1>
-        <ul class="list filters">
+        <h1 class="portfolio-title">Примеры проектов</h1>
+        <ul class="filters">
           <li class="filters-item">
             <label class="button">
-              <input class="click visually-hidden" name="filter" type="radio" value="all" checked />
+              <input class="button-input" name="filter" type="radio" value="all" checked />
               <span class="button-label">Все</span>
             </label>
           </li>
           <li class="filters-item">
             <label class="button">
-              <input class="click visually-hidden" name="filter" type="radio" value="web" />
+              <input class="button-input" name="filter" type="radio" value="web" />
               <span class="button-label">Веб-сайты</span>
             </label>
           </li>
           <li class="filters-item">
             <label class="button">
-              <input class="click visually-hidden" name="filter" type="radio" value="apps" />
+              <input class="button-input" name="filter" type="radio" value="apps" />
               <span class="button-label">Приложения</span>
             </label>
           </li>
           <li class="filters-item">
             <label class="button">
-              <input class="click visually-hidden" name="filter" type="radio" value="design" />
+              <input class="button-input" name="filter" type="radio" value="design" />
               <span class="button-label">Дизайн</span>
             </label>
           </li>
           <li class="filters-item">
             <label class="button">
-              <input class="click visually-hidden" name="filter" type="radio" value="marketing" />
+              <input class="button-input" name="filter" type="radio" value="marketing" />
               <span class="button-label">Маркетинг</span>
             </label>
           </li>
         </ul>
 
-        <ul class="list cards-list">
+        <ul class="cards-list">
           <li class="card">
             <a class="link" href="">
               <div class="thumb">
                 <img
+                  class="thumb-image"
                   src="./images/portfolio-img/techno.jpg"
                   alt="Страница веб-сайта на экране ноутбука"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -124,13 +117,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                  class="thumb-image"
                   src="./images/portfolio-img/poster.jpg"
                   alt="Постер с двумя баскетболистами New Orlean vs Golden Star"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit.
@@ -147,13 +141,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/seafood.jpg"
                   alt="Логотип ресторана Seafood"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -171,13 +166,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/prime.jpg"
                   alt="Большие черные беспроводные наушники"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -194,14 +190,15 @@
           <li class="card">
             <a class="link" href="">
               <div class="thumb">
-                <img
+                <img 
+                class="thumb-image"
                   src="./images/portfolio-img/boxes.jpg"
                   alt="Две маленькие фирменные коробки на белом фоне"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -219,13 +216,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/inspiration.jpg"
                   alt="Дизайн сайта на экране монитора"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -243,13 +241,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/limited-edition.jpg"
                   alt="Открытый глянцевый журнал"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -267,13 +266,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/lab.jpg"
                   alt="Картонная бирка PSD MockUp"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -291,13 +291,14 @@
             <a class="link" href="">
               <div class="thumb">
                 <img
+                class="thumb-image"
                   src="./images/portfolio-img/business.jpg"
                   alt="Руки работающие за ноутбуком"
                   width="370"
                   height="294"
                 />
                 <div class="overlay">
-                  <p class="alt-text">
+                  <p class="overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Architecto, molestiae aliquam. Tempore voluptatem id
                     suscipit. Hic vel consequuntur voluptates dolor. Lorem ipsum
@@ -316,7 +317,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container flex-container">
+      <div class="flex-container">
         <address class="address">
           <!-- Логотип -->
           <a class="logo" href="./index.html" lang="en"
@@ -329,29 +330,29 @@
 
         <div class="social">
           <p class="subtitle"><b>присоединяйтесь</b></p>
-          <ul class="list social-links-list">
-            <li class="social-links-item">
+          <ul class="social-list">
+            <li class="social-list-item">
               <a class="social-links" href="" aria-label="Ссылка на Instagram">
                 <svg width="20" height="20">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-list-item">
               <a class="social-links" href="" aria-label="Ссылка на Twitter">
                 <svg width="20" height="20">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-list-item">
               <a class="social-links" href="" aria-label="Ссылка на Facebook">
                 <svg width="20" height="20">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-list-item">
               <a class="social-links" href="" aria-label="Ссылка на LinkedIn">
                 <svg width="20" height="20">
                   <use href="./images/sprite.svg#linkedin"></use>
@@ -367,7 +368,7 @@
             <input
               class="subscribe-input"
               type="email"
-              name="email"
+              name="email-sub"
               placeholder="E-mail"
             />
             <button class="btn" type="submit">
