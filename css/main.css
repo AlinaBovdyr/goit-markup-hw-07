@@ -584,9 +584,12 @@ summary {
   padding: 0;
 }
 
-.header, .features, .activity, .team, .clients, .flex-container {
-  margin-left: auto;
+.header, .features, .activity, .team, .clients, .flex-container, .btn, .hero, .hero-title {
   margin-right: auto;
+  margin-left: auto;
+}
+
+.header, .features, .activity, .team, .clients, .flex-container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -607,11 +610,6 @@ summary {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.btn, .hero, .hero-title {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .hero-title, .activity-item-title {

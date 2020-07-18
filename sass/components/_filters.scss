@@ -1,6 +1,6 @@
 .filters {
     @extend %list;
-    @include flexCenter
+    @include flexCenter;
     margin-bottom: 50px;
 
     &-item {
@@ -12,7 +12,7 @@
     }
 }
 
-.button{ 
+.button { 
     font-size: 16px;
     line-height: 1.63;
 
@@ -34,8 +34,8 @@
     font-weight: 500;
   
     transition: color 250ms $timing-function,
-      background-color 250ms $timing-function,
-      box-shadow 250ms $timing-function;
+    background-color 250ms $timing-function,
+    box-shadow 250ms $timing-function;
 
     .button-input:checked + &,
     .filters-item:hover &,

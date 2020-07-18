@@ -584,9 +584,12 @@ summary {
   padding: 0;
 }
 
-.header, .flex-container, .portfolio {
-  margin-left: auto;
+.header, .flex-container, .portfolio, .btn {
   margin-right: auto;
+  margin-left: auto;
+}
+
+.header, .flex-container, .portfolio {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -607,11 +610,6 @@ summary {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.btn {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .list-title {
